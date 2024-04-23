@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/KirushnanKithurshika/Kithurshika-K-4023.git'
+                git branch: 'main', url: 'https://github.com/KirushnanKithurshika/dev_ass.git'
             }
         }
 
